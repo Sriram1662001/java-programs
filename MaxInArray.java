@@ -24,7 +24,7 @@ class MaxInArray
       great2=A[i];
   }
   }
-    System.out.println("first greatest:"+great1);
-    System.out.println("second greatest:"+great2);
+    System.out.println("first high:"+great1);
+    System.out.println("second high:"+great2);
     }
 }
