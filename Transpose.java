@@ -4,28 +4,28 @@ class Transpose
  
    public static void main(String[] args)
      {
-        Scanner sc = new Scanner(System.in);
-        int row = sc.nextInt();
-        int col = sc.nextInt();
-        if(row>3 && row<10)
+        Scanner s = new Scanner(System.in);
+        int r = s.nextInt();
+        int c = s.nextInt();
+        if(r>3 && r<10)
         {
-           if(col>3 && col<10)
+           if(c>3 && c<10)
            {
-           int[][] arr = new int[row][col];
+           int[][] arr = new int[r][c];
            System.out.println();
-            for(int i = 0; i<row; i++)
+            for(int i = 0; i<r; i++)
             {
-              for(int j = 0; j<col; j++)
+              for(int j = 0; j<c; j++)
                  {
-                arr[i][j] = sc.nextInt();
+                arr[i][j] = s.nextInt();
                  }
             }
           System.out.println();
 
     
-           for(int i = 0; i<row; i++)
+           for(int i = 0; i<r; i++)
             {
-             for(int j = 0; j<col; j++)
+             for(int j = 0; j<c; j++)
               {
                 System.out.print(arr[i][j]+" ");
               }
@@ -33,9 +33,9 @@ class Transpose
             }
              System.out.println();
        
-            for(int j = 0; j<col; j++)
+            for(int j = 0; j<c; j++)
               {
-                 for(int i = 0; i<row; i++)
+                 for(int i = 0; i<r; i++)
                   {
                    System.out.print(arr[i][j]+" ");
                   }
