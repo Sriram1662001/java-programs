@@ -10,7 +10,7 @@ System.out.println("enter array len:");
 Scanner s=new Scanner(System.in);
 n=s.nextInt();
 int A[]=new int[n];
-System.out.println("enter array elements:");
+System.out.println("enter an array elements:");
 for(int i=0;i<A.length;i++) {
 A[i]=s.nextInt();
 }
